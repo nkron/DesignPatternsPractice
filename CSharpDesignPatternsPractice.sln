@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDesignPatternsPractice", "CSharpDesignPatternsPractice\CSharpDesignPatternsPractice.csproj", "{6DFCC3EF-E116-4048-AF4C-F9CBD72950EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpDesignPatternsPractice", "CSharpDesignPatternsPractice\CSharpDesignPatternsPractice.csproj", "{6DFCC3EF-E116-4048-AF4C-F9CBD72950EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternLibrary", "PatternLibrary\PatternLibrary.csproj", "{4569DEDB-D0BC-4A0D-BF6B-9E7F9471415E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternLibrary", "PatternLibrary\PatternLibrary.csproj", "{4569DEDB-D0BC-4A0D-BF6B-9E7F9471415E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternLibraryTests", "PatternLibraryTests\PatternLibraryTests.csproj", "{AED337CD-D369-4496-82E9-4C57C04CF192}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4569DEDB-D0BC-4A0D-BF6B-9E7F9471415E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4569DEDB-D0BC-4A0D-BF6B-9E7F9471415E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4569DEDB-D0BC-4A0D-BF6B-9E7F9471415E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED337CD-D369-4496-82E9-4C57C04CF192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED337CD-D369-4496-82E9-4C57C04CF192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED337CD-D369-4496-82E9-4C57C04CF192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED337CD-D369-4496-82E9-4C57C04CF192}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

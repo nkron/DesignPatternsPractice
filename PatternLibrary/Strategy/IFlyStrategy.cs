@@ -1,6 +1,6 @@
 ﻿namespace PatternLibrary.Strategy
 {
-    internal interface IFlyStrategy
+    public interface IFlyStrategy
     {
         string Fly();
     }

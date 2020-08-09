@@ -1,6 +1,6 @@
 ﻿namespace PatternLibrary.Strategy
 {
-    internal class ManyTinyQuacks : IQuackStrategy
+    public class ManyTinyQuacks : IQuackStrategy
     {
         public string Quack()
         {

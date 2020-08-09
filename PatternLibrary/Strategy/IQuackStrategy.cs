@@ -1,6 +1,6 @@
 ﻿namespace PatternLibrary.Strategy
 {
-    internal interface IQuackStrategy
+    public interface IQuackStrategy
     {
         string Quack();
     }

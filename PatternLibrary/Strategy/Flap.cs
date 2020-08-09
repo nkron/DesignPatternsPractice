@@ -1,10 +1,10 @@
 ﻿namespace PatternLibrary.Strategy
 {
-    internal class Flap : IFlyStrategy
+    public class Flap : IFlyStrategy
     {
         public string Fly()
         {
-            return "FlapFlapFlap";
+            return "Flap";
         }
     }
 }

@@ -4,11 +4,12 @@ using System.Text;
 
 namespace PatternLibrary.Strategy
 {
-    class Duck
+    public class Duck
     {
         IFlyStrategy flyStrategy;
         IQuackStrategy quackStrategy;
 
+        
         //Instead of different kinds of ducks inheriting fly and quack behaviors and overriding them, defining strategies here allows behaviors to be shared, allowing code reuse.
         public Duck(IFlyStrategy flyStrategy, IQuackStrategy quackStrategy)
         {
@@ -27,5 +28,5 @@ namespace PatternLibrary.Strategy
         {
             return quackStrategy.Quack();
         }
-    }
+    }    
 }
